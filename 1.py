@@ -5,13 +5,14 @@
 # 5. Input: ("rat", "car") → Output: False
 
 
-
+# ფუნქცია რომელიც შლის სტრინგს ელემენტებად
 def splitter(a):
     return [i for i in a]
 
+# ფუცნქიცა რომელიც ამოწემბს აკმაყოფილებს თუ არა ჩვენს მოცემულ პირობას
 def funk(a,b):
     _a = splitter(a)
-    _b = splitter(b)
+    _b = splitter(b) # ვიყენებ ჩემოთ დაწერილ ფუნცქიას 
     _new = []
     for char in _a:
         if char in _b:
